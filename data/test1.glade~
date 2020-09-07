@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.36.0 -->
+<interface>
+  <requires lib="gtk+" version="3.22"/>
+  <object class="GtkWindow" id="main_window">
+    <property name="can_focus">False</property>
+    <property name="type">popup</property>
+    <child>
+      <object class="GtkLayout">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">kiosk_background.jpg</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="kerpak_info_button">
+            <property name="width_request">80</property>
+            <property name="height_request">70</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="receives_default">True</property>
+            <property name="relief">none</property>
+            <property name="image_position">right</property>
+            <child>
+              <object class="GtkImage" id="kerpak_info_button_icon">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="pixbuf">kerpak_info_button_icon.png</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="x">400</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">provider_logo.png</property>
+          </object>
+          <packing>
+            <property name="x">160</property>
+            <property name="y">50</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">480</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Welcome Text</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="foreground" value="#3d3d3d3d3d3d"/>
+              <attribute name="size" value="30720"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">170</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">kiosk_qr.png</property>
+          </object>
+          <packing>
+            <property name="x">115</property>
+            <property name="y">250</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">480</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">You can also open the door manualy</property>
+            <attributes>
+              <attribute name="foreground" value="#707070707070"/>
+              <attribute name="size" value="20480"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">510</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="width_request">480</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">1234568789</property>
+            <attributes>
+              <attribute name="foreground" value="#3d3d3d3d3d3d"/>
+              <attribute name="size" value="24576"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="y">550</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <placeholder/>
+    </child>
+  </object>
+</interface>
