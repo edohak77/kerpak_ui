@@ -20,3 +20,4 @@ ADD_EXECUTABLE(hello main.c)
 
 # Link the target to the GTK+ libraries
 TARGET_LINK_LIBRARIES(hello ${GTK3_LIBRARIES})
+TARGET_LINK_LIBRARIES(hello json-c)
